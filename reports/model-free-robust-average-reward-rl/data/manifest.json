@@ -1,0 +1,15 @@
+{
+  "git_sha": "34db9a411a231e968ad0b01c1c9715d431983724",
+  "total_runtime_s": 64.0,
+  "host": "MacBook-Air.local",
+  "python": "3.12.11",
+  "numpy": "2.5.1",
+  "verdicts": {
+    "c1_thm53_sample_complexity": "VERIFIED",
+    "c2_thm42_reduction": "VERIFIED",
+    "c3_lemma51": "VERIFIED",
+    "c4_thm52_halpern": "VERIFIED",
+    "c5_rsample": "VERIFIED",
+    "c6_first_finite": "VERIFIED"
+  }
+}

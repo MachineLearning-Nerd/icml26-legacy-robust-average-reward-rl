@@ -1,0 +1,41 @@
+{
+  "verdict": "VERIFIED",
+  "eps": 0.15,
+  "n": 8,
+  "H": 0.24779020047367095,
+  "prop_C2_all_within_eps": true,
+  "accumulated_error_bounded": true,
+  "max_accumulated_err": 0.012078390156338159,
+  "uses_sampled_T": true,
+  "m_early_avg": 48.0,
+  "m_late_avg": 4.333333333333333,
+  "m_decreases": true,
+  "m_hist": [
+    1,
+    97,
+    34,
+    13,
+    10,
+    6,
+    4,
+    5,
+    4
+  ],
+  "D_variance_at_mid_iter": 8.581435590216893e-07,
+  "D_variance_at_late_iter": 5.028909963600197e-07,
+  "variance_bounded": true,
+  "budget_rhi_recursive": 8700,
+  "budget_single_level_no_reuse": 18000,
+  "recursive_more_efficient": true,
+  "est_err_traj": [
+    0.0,
+    0.006197493811341492,
+    0.012078390156338159,
+    0.008900069377217434,
+    0.00988967886600678,
+    0.009993397117738834,
+    0.010907528050168036,
+    0.010833703827414443,
+    0.010574185263463765
+  ]
+}

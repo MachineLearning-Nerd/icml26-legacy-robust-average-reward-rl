@@ -1,0 +1,19 @@
+{
+  "verdict": "VERIFIED",
+  "S": 10,
+  "A": 5,
+  "H": 0.35564879535082583,
+  "g_star": 0.8015832364718352,
+  "eps_grid": [
+    0.35,
+    0.25,
+    0.18,
+    0.13,
+    0.1
+  ],
+  "log_log_slope": 2.3572897916290443,
+  "log_log_intercept": 4.607125775266543,
+  "all_runs_eps_optimal": true,
+  "n_runs": 20,
+  "independent_bellman_error_rate": -0.4265310830241367
+}

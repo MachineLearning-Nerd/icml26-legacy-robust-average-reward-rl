@@ -1,0 +1,128 @@
+{
+  "verdict": "VERIFIED",
+  "H": 0.37304745476065626,
+  "g_star": 0.8188122483350053,
+  "transfer_rows": [
+    {
+      "eps": 0.3,
+      "gamma": 0.195812768130325,
+      "amd_gap": 0.01697439886102825,
+      "transfer_holds": true
+    },
+    {
+      "eps": 0.2,
+      "gamma": 0.4638751787535499,
+      "amd_gap": 0.009532713707572471,
+      "transfer_holds": true
+    },
+    {
+      "eps": 0.12,
+      "gamma": 0.6783251072521299,
+      "amd_gap": -1.0274003869881199e-12,
+      "transfer_holds": true
+    },
+    {
+      "eps": 0.08,
+      "gamma": 0.78555007150142,
+      "amd_gap": -1.0274003869881199e-12,
+      "transfer_holds": true
+    }
+  ],
+  "transfer_ok": true,
+  "requires_H": true,
+  "requires_H_reason": "gamma=1-eps/H: with H underestimated to H/10, eps=H/10 gives gamma=0.000 (invalid); the reduction cannot pick a valid gamma without knowing H",
+  "gamma_at_break": 0.0,
+  "reduction_scaling_slope": 3.058648773394622,
+  "rhi_scaling_slope": 2.4034775434655264,
+  "budget_ratio_slope": 0.655171229929096,
+  "budget_ratio_at_min_eps": 440.1554404145078,
+  "reduction_worse": true,
+  "scaling_rows": [
+    {
+      "eps": 0.35,
+      "gamma": 0.0617815628187125,
+      "budget": 375000,
+      "gap": 0.03186303067834273,
+      "method": "reduction"
+    },
+    {
+      "eps": 0.25,
+      "gamma": 0.3298439734419374,
+      "budget": 375000,
+      "gap": 0.01697439886102825,
+      "method": "reduction"
+    },
+    {
+      "eps": 0.18,
+      "gamma": 0.517487660878195,
+      "budget": 997500,
+      "gap": 0.009532713707572471,
+      "method": "reduction"
+    },
+    {
+      "eps": 0.13,
+      "gamma": 0.6515188661898075,
+      "budget": 3660000,
+      "gap": -1.0274003869881199e-12,
+      "method": "reduction"
+    },
+    {
+      "eps": 0.1,
+      "gamma": 0.731937589376775,
+      "budget": 10440000,
+      "gap": -1.0274003869881199e-12,
+      "method": "reduction"
+    },
+    {
+      "eps": 0.08,
+      "gamma": 0.78555007150142,
+      "budget": 25485000,
+      "gap": -1.0274003869881199e-12,
+      "method": "reduction"
+    }
+  ],
+  "rhi_rows": [
+    {
+      "eps": 0.35,
+      "budget": 1750,
+      "method": "rhi"
+    },
+    {
+      "eps": 0.25,
+      "budget": 3250,
+      "method": "rhi"
+    },
+    {
+      "eps": 0.18,
+      "budget": 8250,
+      "method": "rhi"
+    },
+    {
+      "eps": 0.13,
+      "budget": 16800,
+      "method": "rhi"
+    },
+    {
+      "eps": 0.1,
+      "budget": 33050,
+      "method": "rhi"
+    },
+    {
+      "eps": 0.08,
+      "budget": 57900,
+      "method": "rhi"
+    }
+  ],
+  "algebra": {
+    "eps": 0.1,
+    "H": 0.37304745476065626,
+    "S": 10,
+    "A": 5,
+    "gamma": 0.731937589376775,
+    "one_minus_gamma": 0.26806241062322506,
+    "eps_gamma_paper": 0.37304745476065626,
+    "N_paper_tilde": 4999.999999999999,
+    "expected_H_power": 2,
+    "expected_eps_power": 4
+  }
+}

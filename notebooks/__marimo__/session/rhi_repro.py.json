@@ -1,0 +1,86 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "17459a1d8bb5ede1b0d2165509411a02",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"robust-halpern-iteration-the-central-claim-interactively\">Robust Halpern Iteration \u2014 the central claim, interactively</h1>\n<span class=\"paragraph\"><strong>Paper:</strong> <em>A Finite-Sample Analysis of Distributionally Robust\nAverage-Reward RL</em> (arXiv <a href=\"https://arxiv.org/abs/2505.12462\" rel=\"noopener\" target=\"_blank\">2505.12462</a>).</span>\n<span class=\"paragraph\">RHI learns an <strong>\u03b5-optimal robust average-reward policy</strong> from\n<strong>\u00d5(SA\ud835\udcd7\u00b2/\u03b5\u00b2)</strong> nominal samples, <strong>without knowing the bias span \ud835\udcd7</strong>.\nThis notebook implements the algorithm from scratch (numpy) on a small\nrobust MDP and shows it reaching \u03b5-optimality with the predicted\n\u03b5\u207b\u00b2 sample scaling.</span>\n<span class=\"paragraph\">The headline reproduction result (over many seeds and a wider \u03b5-grid) is\na log-log slope of <strong>2.36</strong> \u2248 \u03b5\u207b\u00b2 \u2014 see the full report in\n<a href=\"../reports/model-free-robust-average-reward-rl/report.md\"><code>reports/model-free-robust-average-reward-rl/report.md</code></a>.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "f0cad2eed7964c15b3ce975850406404",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Every \u03b5-target is reached (gap \u2264 \u03b5) with a sample count that grows as\n\u03b5\u207b\u00b2. The full reproduction (5 \u03b5 \u00d7 4 seeds, larger MDPs, all 6 claims with\nnegative controls) lives on branch <code>orx/baseline-faithful-rhi</code> and runs\nend-to-end with <code>bash run.sh</code>.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "2165a3ac278eb64f0d36dac4f79fbeda",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "eb2989146205897b62395ad214cb05a1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "fa5ded6ab50ebe5b57c20d90b26085e7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
