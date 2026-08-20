@@ -35,6 +35,41 @@ controls and raw data that regenerate from one fixed command.
 📖 **Full report:** [`reports/model-free-robust-average-reward-rl/report.md`](reports/model-free-robust-average-reward-rl/report.md)
 · 🔬 **Interactive notebook:** `marimo edit notebooks/rhi_repro.py`
 
+## Collection classification and audit boundary
+
+This repository is the **legacy/source workspace** for the ICML 2026 paper
+recorded by the collection as *Model-Free Robust Average-Reward Reinforcement
+Learning with Sample Complexity Analysis* (arXiv `2505.12462`, OpenReview
+`GMIHHrJ6Wp`). It is preserved separately from the standardized canonical
+record at
+[`icml26-robust-halpern-rl`](https://github.com/MachineLearning-Nerd/icml26-robust-halpern-rl).
+
+The six verdicts above are historical results recorded by this workspace. They
+describe the source implementation's own clean-room campaign and are not a new
+paper-level verification performed while organizing the collection. The
+collection audit deliberately did not run the scientific implementation; see
+the canonical record for its scoped finite-diagnostic status and limitations.
+
+### How the historical claims are produced
+
+The production path is:
+
+1. `src/rhi_repro/mdp.py`, `rhi.py`, `exact_rhi.py`, and `reduction.py` build
+   the tabular robust-RL and reduction primitives.
+2. `src/rhi_repro/verifiers.py` evaluates the six claim-specific checks and
+   their negative controls.
+3. `run.sh` runs the pinned `uv.lock` environment and writes the report data,
+   figures, and `reports/model-free-robust-average-reward-rl/data/manifest.json`.
+4. `reports/model-free-robust-average-reward-rl/EVAL.md` and `report.md`
+   present the resulting evidence and observed values.
+
+The former `orx/baseline-faithful-rhi` branch contains the implementation and
+experiment snapshot; `main` was the publication surface. Its complete branch
+history and purpose are preserved in [`BRANCH_AUDIT.md`](BRANCH_AUDIT.md).
+
+For the paper citation, software citation, and author acknowledgment, see
+[`CITATION.cff`](CITATION.cff) and [`AUTHOR_THANK_YOU.md`](AUTHOR_THANK_YOU.md).
+
 ## Experiment log
 
 | Branch / experiment | Purpose / change | Exact run command | Assessment / outcome | Compute |

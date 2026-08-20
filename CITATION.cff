@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Legacy/source workspace for Model-Free Robust Average-Reward Reinforcement Learning with Sample Complexity Analysis"
+type: software
+authors:
+  - family-names: Roch
+    given-names: Zachary
+  - family-names: Atia
+    given-names: George
+  - family-names: Wang
+    given-names: Yue
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-legacy-robust-average-reward-rl"
+url: "https://github.com/MachineLearning-Nerd/icml26-legacy-robust-average-reward-rl"
+abstract: "Legacy/source workspace preserving the implementation, reports, and branch history for the associated ICML 2026 reproduction record."
+keywords:
+  - robust reinforcement learning
+  - average-reward reinforcement learning
+  - reproduction
+references:
+  - type: article
+    title: "Model-Free Robust Average-Reward Reinforcement Learning with Sample Complexity Analysis"
+    authors:
+      - family-names: Roch
+        given-names: Zachary
+      - family-names: Atia
+        given-names: George
+      - family-names: Wang
+        given-names: Yue
+    identifiers:
+      - type: arxiv
+        value: "2505.12462"
+    url: "https://arxiv.org/abs/2505.12462"
