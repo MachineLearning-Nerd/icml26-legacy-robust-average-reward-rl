@@ -70,6 +70,10 @@ history and purpose are preserved in [`BRANCH_AUDIT.md`](BRANCH_AUDIT.md).
 For the paper citation, software citation, and author acknowledgment, see
 [`CITATION.cff`](CITATION.cff) and [`AUTHOR_THANK_YOU.md`](AUTHOR_THANK_YOU.md).
 
+## Thank you
+
+Thank you to the paper authors for making this research available for study. The full acknowledgment is in [`AUTHOR_THANK_YOU.md`](AUTHOR_THANK_YOU.md).
+
 ## Experiment log
 
 | Branch / experiment | Purpose / change | Exact run command | Assessment / outcome | Compute |
